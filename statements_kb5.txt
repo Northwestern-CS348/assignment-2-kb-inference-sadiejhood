@@ -1,0 +1,9 @@
+fact: (fur dog)
+fact: (fur cat)
+fact: (nice dog)
+fact: (nice cat)
+fact: (feather bird)
+fact: (scale fish)
+
+rule: ((fur ?x)) -> (mammal ?x)
+rule: ((mammal ?y)(nice ?y)) -> (pet ?y)
